@@ -13,6 +13,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <h1 className="title">
         Read <Link href="/posts/first-post">this page!</Link>
       </h1>
@@ -22,6 +23,7 @@ export default function Home() {
         width={144} // Desired size with correct aspect ratio
         alt="Your Name"
       />
+
     </>
   )
 }
